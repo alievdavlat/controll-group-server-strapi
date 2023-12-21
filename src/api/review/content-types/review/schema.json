@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "singularName": "review",
+    "pluralName": "reviews",
+    "displayName": "Reviews"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "owner_ru": {
+      "type": "string",
+      "required": true
+    },
+    "owner_uz": {
+      "type": "string",
+      "required": true
+    },
+    "content_ru": {
+      "type": "string",
+      "required": true
+    },
+    "content_uz": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

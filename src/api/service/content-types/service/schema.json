@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Services",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type_ru": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "type_uz": {
+      "type": "string"
+    },
+    "title_ru": {
+      "type": "string",
+      "required": true
+    },
+    "title_uz": {
+      "type": "string",
+      "required": true
+    },
+    "description_uz": {
+      "type": "string",
+      "required": true
+    },
+    "description_ru": {
+      "type": "string",
+      "required": true
+    },
+    "icons_text_one_ru": {
+      "type": "string",
+      "required": true
+    },
+    "icons_text_one_uz": {
+      "type": "string",
+      "required": true
+    },
+    "icons_text_two_ru": {
+      "type": "string",
+      "required": true
+    },
+    "icons_text_two_uz": {
+      "type": "string",
+      "required": true
+    },
+    "icon_one": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "icon_two": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
